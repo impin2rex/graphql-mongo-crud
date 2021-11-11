@@ -1,0 +1,33 @@
+{
+  "name": "graphql-mongo-crud",
+  "version": "1.0.0",
+  "description": "Example of GraphQL API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "watch": "nodemon index"
+  },
+  "keywords": [
+    "GraphQL",
+    "Apollo"
+  ],
+  "author": "impin2rex",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.5.0",
+    "express": "^4.17.1",
+    "graphql": "^16.0.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/impin2rex/graphql-mongo-crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/impin2rex/graphql-mongo-crud/issues"
+  },
+  "homepage": "https://github.com/impin2rex/graphql-mongo-crud#readme"
+}
